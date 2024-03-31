@@ -1,3 +1,7 @@
+# Repo specific files
+archive*.zip
+.DS_Store
+
 # Logs
 logs
 *.log
