@@ -1,0 +1,19 @@
+{
+	"name": "serverless",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@google-cloud/functions-framework": "^3.3.0",
+		"@mailchimp/mailchimp_transactional": "^1.0.59",
+		"pg": "^8.11.3",
+		"pg-hstore": "^2.3.4",
+		"sequelize": "^6.37.2"
+	}
+}
