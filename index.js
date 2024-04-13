@@ -117,7 +117,7 @@ functions.cloudEvent('verifyLink', async (cloudEvent) => {
     Hello ${newVerifyUserInfo.dataValues.first_name},
 
     Welcome to CSYE6225 | Qianwei Yin!
-    To enable your account, confirm this email address by clicking this link: https://qianweiyin.me/v1/user/verify?token=${newVerifyUserInfo.dataValues.verify_token}. Link will expire in 2 minutes.
+    To enable your account, confirm this email address by clicking this link: https://qianweiyin.me/user/verify?token=${newVerifyUserInfo.dataValues.verify_token}. Link will expire in 2 minutes.
     `,
 		to: [
 			{
